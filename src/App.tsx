@@ -8,6 +8,7 @@ import Workspace from './pages/Workspace';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import Forbidden from './pages/Forbidden';
+import GettingStarted from './pages/GettingStarted';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
@@ -21,6 +22,7 @@ const AppContent: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/boards" element={<BoardsPage />} />
         <Route path="/workspace" element={<Workspace />} />
+        <Route path="/getting-started" element={<GettingStarted />} />
 
         {/* Admin Routes - Protected */}
         <Route path="/admin/login" element={<AdminLogin />} />

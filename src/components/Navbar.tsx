@@ -44,6 +44,12 @@ const Navbar: React.FC = () => {
                 >
                   Workspace
                 </Link>
+                <Link
+                  to="/getting-started"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                >
+                  <i className="fas fa-download mr-1"></i> Download
+                </Link>
               </div>
             )}
           </div>
